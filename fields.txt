@@ -1,0 +1,5178 @@
+{
+   "fields":[
+      {
+         "label":"RTW - Attach File",
+         "key":"field_619",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Baseline Survey One",
+         "key":"field_514",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Baseline Survey Two",
+         "key":"field_515",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Employer Release Form",
+         "key":"field_773",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Job Description Form",
+         "key":"field_774",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"PPR",
+         "key":"field_777",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Restrictions",
+         "key":"field_779",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Coordinator",
+         "key":"field_19",
+         "required":false,
+         "type":"connection",
+         "relationship":{
+            "object":"object_3",
+            "has":"one",
+            "belongs_to":"many"
+         }
+      },
+      {
+         "label":"Exit Interview File",
+         "key":"field_653",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Service - Plan Addendum 1",
+         "key":"field_620",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Service - Plan Addendum 2",
+         "key":"field_621",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Service - Plan Addendum 3",
+         "key":"field_622",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Name",
+         "key":"field_18",
+         "required":false,
+         "type":"name"
+      },
+      {
+         "label":"Random ID",
+         "key":"field_391",
+         "required":false,
+         "type":"concatenation"
+      },
+      {
+         "label":"Referral ID",
+         "key":"field_392",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"Status",
+         "key":"field_393",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 1 - ID",
+         "key":"field_2",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 1A - Date of Birth",
+         "key":"field_395",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 1B - Address",
+         "key":"field_512",
+         "required":false,
+         "type":"address"
+      },
+      {
+         "label":"RTN 1C - Email Address",
+         "key":"field_436",
+         "required":false,
+         "type":"email"
+      },
+      {
+         "label":"RTN 1D - Primary Phone",
+         "key":"field_437",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 1E - Secondary Phone",
+         "key":"field_438",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 2 - Date of Birth (calculate out as numerical age)",
+         "key":"field_776",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 3 - What is your sex?",
+         "key":"field_444",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Male",
+            "Female"
+         ]
+      },
+      {
+         "label":"RTN 4 - Are you of Hispanic, Latino, or Spanish Origin?",
+         "key":"field_445",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 5 - What is your race?",
+         "key":"field_446",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "White",
+            "Black or African American",
+            "American Indian or Alaska Native",
+            "Asian",
+            "Hawaiian or Pacific Islander",
+            "Other Race",
+            "Multiple Races"
+         ]
+      },
+      {
+         "label":"RTN 6 - What is the highest educational degree you have completed?",
+         "key":"field_453",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Less than a high school diploma",
+            "High school diploma",
+            "GED or certificate of completion",
+            "Occupational certificate/license or 2-year college degree",
+            "4-year college degree (bachelor's degree)",
+            "Post-graduate degree (master's, doctorate, professional)"
+         ]
+      },
+      {
+         "label":"RTN 7 - In general, would you say your current health is?",
+         "key":"field_463",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Excellent",
+            "Very Good",
+            "Good",
+            "Fair",
+            "Poor"
+         ]
+      },
+      {
+         "label":"RTN 8 - What describes your current employment status....",
+         "key":"field_488",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Not employed",
+            "Self employed",
+            "Employed at private company",
+            "Non-profit or government "
+         ]
+      },
+      {
+         "label":"RTN 9 - How many hours per week did you usually work before your injury/illness?",
+         "key":"field_511",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 10 - How long has it been since you last worked?",
+         "key":"field_409",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "I worked today",
+            "No more than a week ago",
+            "More than a week ago but no more than a month ago",
+            "More than a month ago but no more than three months ago More than three months ago"
+         ]
+      },
+      {
+         "label":"RTN 11 - How long have you been continuously employed at your current job?",
+         "key":"field_421",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "< 6 months",
+            "6 months to 1 year",
+            "1 year to 2 years",
+            "2 years to 5 years",
+            "More than 5 years"
+         ]
+      },
+      {
+         "label":"RTN 12 - Date of Onset of Primary Injury or Illness",
+         "key":"field_428",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 12 A - Weeks Since Injury Illness",
+         "key":"field_735",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 13 - Date of Enrollment in RETAIN:",
+         "key":"field_429",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 14 - What is the ICD-10 code of the primary injury or illness?",
+         "key":"field_430",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 15 - Provide a brief description of the primary injury or illness:",
+         "key":"field_431",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 15A - Injury/Illnesss Category",
+         "key":"field_750",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Traumatic Injuries and Disorders",
+            "Systemic Diseases or Disorders",
+            "Infectious and Parasitic Diseases",
+            "Neoplasms, Tumors, and Cancer",
+            "Symptoms, Signs, and Ill-defined Conditions",
+            "Other Conditions or Disorders",
+            "Multiple Diseases, Conditions, or Disorders",
+            "Nonclassifiable"
+         ]
+      },
+      {
+         "label":"RTN 16 - Is the primary of illness caused, at least in part, by work-related factors?",
+         "key":"field_432",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 17 - Is the primary injury or illness part of a workers' compensation claim?",
+         "key":"field_433",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 18 - Is the primary condition a result of an accident or injury?",
+         "key":"field_434",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Accident or Injury",
+            "Illness"
+         ]
+      },
+      {
+         "label":"RTN 19 -  Is the primary injury or illness:",
+         "key":"field_435",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "New condition",
+            "Worsening or an existing condition"
+         ]
+      },
+      {
+         "label":"RTN 20 - Industry classification of pre-injury/illness employer:",
+         "key":"field_440",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Agriculture or Mining",
+            "Construction or Utilities",
+            "Manufacturing",
+            "Retail Trade",
+            "Wholesale Trade or Transportation",
+            "Information",
+            "Finance or Real Estate",
+            "Professional",
+            "Management or Administrative Services",
+            "Education or Health Care",
+            "Accommodation and Food Services,",
+            "Arts and Entertainment",
+            "Public Administration",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 20A - Specify Other RTN 20 Industry Classification",
+         "key":"field_439",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 21 - Occupational classification or pre-injury/illness job:",
+         "key":"field_441",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Management",
+            "Professional",
+            "Service",
+            "Sales and office",
+            "Natural resources",
+            "Construction or maintenance",
+            "Production",
+            "Transportation or material moving"
+         ]
+      },
+      {
+         "label":"RTN 22 - Initial Date of Contact",
+         "key":"field_442",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 23 - Date of Release Consent:",
+         "key":"field_708",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 24 - Date of Contact:",
+         "key":"field_715",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 30 - Physical Change:",
+         "key":"field_719",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 30A - Specify Physical Change(s):",
+         "key":"field_720",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 31 -  Accessible communications and assistive technologies:",
+         "key":"field_721",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 31A - Specify  Accessible communications and Assistance:",
+         "key":"field_722",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 32 - Modified work tasks:",
+         "key":"field_723",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 32A - Specify Modified Work Tasks:",
+         "key":"field_724",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 33 - Policy enhancements:",
+         "key":"field_725",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 33A - Specify Policy Enhancements:",
+         "key":"field_726",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 34 - Other Accommodations:",
+         "key":"field_727",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 34A - Specify Other Accommodations:",
+         "key":"field_728",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 35 - Date referred Worker Participant or Employer to any Employee Assistance Program (EAP):",
+         "key":"field_625",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 36 - Date referred Worker Participant or Employer to the Job Accommodation Network (JAN):",
+         "key":"field_626",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 37 - Date - Report of Accident Submitted",
+         "key":"field_443",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 38 - Date Return-to-Work Plan was finalized:",
+         "key":"field_654",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 38A - Date of RTW Plan:",
+         "key":"field_591",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 39 - Date of First Follow-up Communication after Worker Participant Returned to Work",
+         "key":"field_755",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 40 - Main Provider Type:",
+         "key":"field_716",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Primary Care Physician",
+            "Occupational Medicine Physician",
+            "Physical Medicine and Rehab Specialist",
+            "Orthopedic Surgeon",
+            "Neurosurgeon",
+            "Physical Therapist",
+            "Chiropractor",
+            "Registered Nurse",
+            "Nurse Practitioner",
+            "Physician Assistant",
+            "Mental Health Professional",
+            "Other Physician or Clinician",
+            "Workforce Development Professional",
+            "Vocational Rehab Counselor",
+            "Other Workforce Professional"
+         ]
+      },
+      {
+         "label":"RTN 41 - Date Participant was 1st referred to employment-related services while enrolled in RETAIN (blank if not referred):",
+         "key":"field_627",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 42 - Date Participant 1st began employment-related services while enrolled in RETAIN (blank if not referred):",
+         "key":"field_655",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 43A - First date Participant accessed self-services while enrolled in RETAIN:",
+         "key":"field_656",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 43B - Type of Service Self-Accessed",
+         "key":"field_657",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 44A - First date Participant received any staff-assisted basic services:",
+         "key":"field_658",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 44B - Type of Service Received (Staff Assisted)",
+         "key":"field_659",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 45 - Most recent date a job seeker accessed self-services during the reporting period:",
+         "key":"field_660",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 46 - Most recent date Participant received any basic career service:",
+         "key":"field_661",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 47 - First date Participant received any individualized career service on or after the date of participation:",
+         "key":"field_662",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 48 - Most recent date Participant received individualized career services:",
+         "key":"field_663",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 49 - Date Participant's Individual Employment Plan (IEP) was created or established:",
+         "key":"field_664",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 50 - Date Participant's first training service began",
+         "key":"field_665",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 51 - Most recent date Participant received follow-up services:",
+         "key":"field_666",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 52 - Date Participant began an absence from work (blank if no absence from work):",
+         "key":"field_628",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 53 - Total number of work days lost the Participant experienced while enrolled in RETAIN:",
+         "key":"field_629",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 54 - Total number of days of restricted work activity the Participant experienced while enrolled in RETAIN:",
+         "key":"field_630",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 55 - Date Participant returned to work (blank if did not return):",
+         "key":"field_631",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 56 - Number of hours per week the Participant worked upon return to work (blank if did not return):",
+         "key":"field_632",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 57 - Return to Work Job and Employer:",
+         "key":"field_633",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Participant returned to pre-injury/illness job with the same employer",
+            "Participant returned to work in a different job with the pre-injury/illness with the same employer",
+            "Participant returned to different job and with a different employer",
+            "Participant has not returned to work"
+         ]
+      },
+      {
+         "label":"RTN 58 - Retain Participation Status:",
+         "key":"field_634",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Participant is enrolled in RETAIN",
+            "Participant has exited RETAIN"
+         ]
+      },
+      {
+         "label":"RTN 59 - Date of Exit from RETAIN",
+         "key":"field_635",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 60 - Referral to service beyond RETAIN after 6 months:",
+         "key":"field_652",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Participant did not return to work within 6 months of enrolling in RETAIN and was referred to services beyond RETAIN",
+            "Participant did not return to work within 6 months of enrolling in RETAIN and was not referred to services beyond RETAIN",
+            "Participant is still enrolled in RETAIN"
+         ]
+      },
+      {
+         "label":"RTN 60A - Specify Other RTN 60 Referral to service beyond RETAIN",
+         "key":"field_668",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 61 - Program Eligibility Work",
+         "key":"field_447",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 62 - Program Eligibility Injury Type",
+         "key":"field_448",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 63 - Work Income",
+         "key":"field_449",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 64 - SSI/SSDI",
+         "key":"field_450",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 66 - How did you hear about RETAIN-KY?",
+         "key":"field_451",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Healthcare provider",
+            "Employer",
+            "Absence Management Company",
+            "Social Worker/Case Manager",
+            "Friend/Family",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 67 - How did you hear about RETAIN-KY (please specify)?",
+         "key":"field_452",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 70F - Employer Fax Number",
+         "key":"field_778",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 71 - RTW Reviewed Basics",
+         "key":"field_454",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 72 - RTW Answered Questions",
+         "key":"field_455",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 73 - Level of Interest",
+         "key":"field_456",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 77 - SSN",
+         "key":"field_457",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 78 - Preferred Language",
+         "key":"field_458",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 79A - Private insurance plan through own employer",
+         "key":"field_459",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 79B - Private insurance plan through family member's employer",
+         "key":"field_460",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 79C - Private insurance plan not connected to any employer",
+         "key":"field_461",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"Other Insurance (Not Listed Above)",
+         "key":"field_462",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 80 - Completed BS1",
+         "key":"field_466",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80A - Medicare",
+         "key":"field_464",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80B - Medicaid",
+         "key":"field_465",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80C - Veteran's benefits",
+         "key":"field_467",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80D - SSI/SSDI",
+         "key":"field_468",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80E - Veteran Benefits",
+         "key":"field_469",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80F - Worker's compensation",
+         "key":"field_470",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80G - Disability insurance",
+         "key":"field_471",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80H - Other public programs (not listed above)",
+         "key":"field_472",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 81 - RTW Completed BS2",
+         "key":"field_473",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 82 - RTW Med Release",
+         "key":"field_474",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 83 - RTW Emp Release",
+         "key":"field_475",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 84 - RTW Consent RETAIN",
+         "key":"field_476",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 85 - Intake Location",
+         "key":"field_477",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 86A - Marital Status",
+         "key":"field_478",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Currently Married/Partnership",
+            "Divorced",
+            "Widowed/Widower",
+            "Single",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 86B - Marital Status Other",
+         "key":"field_479",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 86C - Spouse Living with Participant?",
+         "key":"field_480",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 86D - Spouse Employed?",
+         "key":"field_481",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 87A - Emergency Contact",
+         "key":"field_482",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 87B - Emergency Contact Phone",
+         "key":"field_483",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 87C - Emergency Contact Relationship",
+         "key":"field_768",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 88 - Last Date Worked",
+         "key":"field_484",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 89 - Residence",
+         "key":"field_487",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "House - Owned",
+            "House - Rented",
+            "Apartment",
+            "Trailer",
+            "Homeless",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 89A - Residence Other",
+         "key":"field_485",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 89B - Residence Persons",
+         "key":"field_486",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 90 - Education Enrollment",
+         "key":"field_489",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 91A - Computer Skills",
+         "key":"field_490",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 91B - Computer Skills",
+         "key":"field_491",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 91C - Computer Skills",
+         "key":"field_492",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 91D - Computer Skills",
+         "key":"field_493",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 91E - Computer Skills",
+         "key":"field_494",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 91F - Computer Skills",
+         "key":"field_495",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 92 - Work History",
+         "key":"field_496",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 93A - Restrictions",
+         "key":"field_497",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 93B - Allergies",
+         "key":"field_498",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 93C - Glasses",
+         "key":"field_499",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 93D - Dominant Hand",
+         "key":"field_500",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            
+         ]
+      },
+      {
+         "label":"RTN 94A - Drivers License",
+         "key":"field_501",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 94B - Reliable Vehicle",
+         "key":"field_502",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 94C - Transportation Other",
+         "key":"field_503",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 95 - Military Service",
+         "key":"field_504",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 96A - Criminal Record",
+         "key":"field_505",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 96B - Criminal Record Explain",
+         "key":"field_506",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 97 - Condition Work",
+         "key":"field_507",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 98 - Job Physical Demand",
+         "key":"field_508",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 99A - Caregiver Child",
+         "key":"field_509",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 99B - Caregiver Elderly",
+         "key":"field_510",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 100 - Intellectual/Cognitive",
+         "key":"field_397",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 101 - Visual Impairment",
+         "key":"field_398",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 102 - Motor Skills",
+         "key":"field_399",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 103 - Chronic Pain",
+         "key":"field_400",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 104 - Speech/Communication",
+         "key":"field_401",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 105 - Progressive",
+         "key":"field_402",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 106 - Mental Health Condition",
+         "key":"field_404",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 106A - Mental Health Condition Other",
+         "key":"field_403",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "First Choice",
+            "Second Choice",
+            "Third Choice"
+         ]
+      },
+      {
+         "label":"RTN 107 - Mobility",
+         "key":"field_406",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 107A - Mobility Other",
+         "key":"field_405",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 108 - Vocational Rehab",
+         "key":"field_407",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 108A - Name",
+         "key":"field_769",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 108B - Phone Number",
+         "key":"field_771",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 108C - Email Address",
+         "key":"field_772",
+         "required":false,
+         "type":"email"
+      },
+      {
+         "label":"RTN 109 - Short Term Disability",
+         "key":"field_408",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 110 - Disability Benefits",
+         "key":"field_410",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 111 - Disability Requirements",
+         "key":"field_411",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            
+         ]
+      },
+      {
+         "label":"RTN 112 - Height",
+         "key":"field_412",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 113 - Weight",
+         "key":"field_413",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 114 - Tobacco Use",
+         "key":"field_414",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "false"
+         ]
+      },
+      {
+         "label":"RTN 115 - Drinks",
+         "key":"field_415",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 116 - Work Accommodations",
+         "key":"field_417",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 116A - Work Accommodations Used",
+         "key":"field_416",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 117 - Drugs",
+         "key":"field_418",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 118 - Exercise",
+         "key":"field_419",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 119 - Physical Stamina",
+         "key":"field_420",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            
+         ]
+      },
+      {
+         "label":"RTN 120 - Sleep",
+         "key":"field_422",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 121 - Return To Employer",
+         "key":"field_423",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 121B - Participant Tier",
+         "key":"field_424",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "First Choice",
+            "Second Choice",
+            "Third Choice"
+         ]
+      },
+      {
+         "label":"RTN 122 - Did your most recent job pay more than$12 per hour?",
+         "key":"field_513",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 123 - Did your most recent job require more than high school diploma?  ",
+         "key":"field_426",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 124 -  Did it take 30 minutes or more minutes to get to your most recent job from where you lived? ",
+         "key":"field_427",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 125 - Contact Person Title:",
+         "key":"field_709",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 126 - Date of Request for Restrictions",
+         "key":"field_710",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 127 - Restriction received from:",
+         "key":"field_711",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 128 - Date Release / Restrictions Received:",
+         "key":"field_712",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 129 - Does the employee retain the capacity to return to work performed at the time of illness or injury?",
+         "key":"field_713",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 130 - Which restrictions, if any, should be placed upon employee's work activities as a result of the illness or injury?",
+         "key":"field_714",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 131 - Obtain physical/psychological restrictions and supporting documents (e.g. doctor's notes, med/psych notes):",
+         "key":"field_717",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 132 - Obtain current medications and how this may impact ability to perform work tasks:",
+         "key":"field_718",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 133 - Date of Initial Assessment:",
+         "key":"field_729",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 134 - Did the RTW Team provide direct technical assistance to employer to implement workplace accommodation(s) for worker participant?",
+         "key":"field_730",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 135 - Number of times RTW Coordinator provided assistance to employer: (enter 0 for N/A)",
+         "key":"field_731",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 136 - Goal Date to Return to Work:",
+         "key":"field_592",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 137A - Service 1 - Case Management Service:",
+         "key":"field_593",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 137B - Service 1 - Provider:",
+         "key":"field_594",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 137C - Service 1 - Beginning Date:",
+         "key":"field_595",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 137D - Service 1 - Ending Date (84 days from intake):",
+         "key":"field_596",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 137E - Service 1 - Other Information:",
+         "key":"field_597",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 138A - Service 2 - Case Management Service:",
+         "key":"field_598",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 138B - Service 2 - Provider:",
+         "key":"field_599",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 138C - Service 2 - Beginning Date:",
+         "key":"field_600",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 138D - Service 2 - Ending Date (84 days from intake):",
+         "key":"field_601",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 138E - Service 2 - Other Information:",
+         "key":"field_602",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 139A - Service 3 - Case Management Service:",
+         "key":"field_603",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 139B - Service 3 - Provider:",
+         "key":"field_604",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 139C - Service 3 - Beginning Date:",
+         "key":"field_605",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 139D - Service 3 - Ending Date (84 days from intake):",
+         "key":"field_606",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 139E - Service 3 - Other Information:",
+         "key":"field_607",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 140A - Service 4 - Case Management Service:",
+         "key":"field_608",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 140B - Service 4 - Provider:",
+         "key":"field_609",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 140C - Service 4 - Beginning Date:",
+         "key":"field_610",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 140D - Service 4 - Ending Date (84 days from intake):",
+         "key":"field_611",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 140E - Service 4 - Other Information:",
+         "key":"field_612",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 141A - Service 5 - Case Management Service:",
+         "key":"field_613",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 141B - Service 5 - Provider:",
+         "key":"field_614",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 141C - Service 5 - Beginning Date:",
+         "key":"field_615",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 141D - Service 5 - Ending Date (84 days from intake):",
+         "key":"field_616",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 141E - Service 5 - Other Information:",
+         "key":"field_617",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 142 - The Worker Participant has accepted and has signed off on the Return to Work Plan?",
+         "key":"field_618",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 143A - Returning to Work Job and Employer - Given employee's restrictions disclosed by the physician, the employer believes the employee is:",
+         "key":"field_669",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Able to return to pre-injury/illness job",
+            "Able to return to different job with current employer",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 143B - Specify Other (Returning to Work...)",
+         "key":"field_670",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 144 - Obtain a description of the work environment and job tasks performed:",
+         "key":"field_671",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 145 - RTW Coordinator performed Job Analysis (see template)?",
+         "key":"field_672",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 146 - Obtain information about employee work strengths from appropriate source (e.g. existing employee evaluations or direct supervisor): ",
+         "key":"field_673",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 147A - Work Health Provider Name",
+         "key":"field_674",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 147B - Relationship to the Participant",
+         "key":"field_675",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 148 A - Exit Interview completed",
+         "key":"field_648",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 148 B - If Exit Interview was not completed, please specify why",
+         "key":"field_649",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 150 - Is this the fourth and final attempt to contact for Exit Interview?",
+         "key":"field_650",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 151 - Date of last contact (WFM)",
+         "key":"field_700",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 152 - Date of letter sent (WFM)",
+         "key":"field_701",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 153 - Date Participant placed in Withdrawn from Maintenance (Associate withe RTN 59 - Exit from RETAIN)",
+         "key":"field_702",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 161 - Contacted",
+         "key":"field_516",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Person was successfully contacted",
+            "Person was never successfully contacted"
+         ]
+      },
+      {
+         "label":"RTN 161A - Reason Not Contacted",
+         "key":"field_517",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Contacted, no response",
+            "Inaccurate contact info",
+            "No contact info"
+         ]
+      },
+      {
+         "label":"RTN 162 - Eligible",
+         "key":"field_518",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Person is eligible",
+            "Person is not eligible"
+         ]
+      },
+      {
+         "label":"RTN 162A - Have you sustained an injury or acquired an illness outside of the workplace that limits your ability to work? ",
+         "key":"field_519",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 162B - In the last 12 months, have you worked at a job that paid you more than $1,000 a month before taxes and deductions? ",
+         "key":"field_738",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 162C - Have you applied for or received disability benefits from the Social Security Administration within the last five years – either Social Security Disability Insurance (SSDI) or Supplemental Security Income (SSI)?",
+         "key":"field_739",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 162 D - Reason Not Elligible",
+         "key":"field_752",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "No work limitation due to injury/illness",
+            "Did not earn at least 1000 in the last 12 months",
+            "Applied for SSI/SSDI last five years"
+         ]
+      },
+      {
+         "label":"RTN 163 - Expressed Interest",
+         "key":"field_520",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 163A - Reason Not Interested",
+         "key":"field_521",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 164 - How old were you when you acquired this disability?",
+         "key":"field_523",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 165 - Describe how the disability affects your functioning, e.g., weakness, chronic fatigue, limited vision, poor balance, low stress tolerance.  Rank order the entries in terms of their impact, e.g., the first effect listed represents the greatest problem.",
+         "key":"field_525",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 166 - On a scale of 1 to 5, how would you rate the severity of your current symptoms? ",
+         "key":"field_524",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (No current symptoms)",
+            "2",
+            "3 (Multiple symptoms, occasionally limiting daily functioning)",
+            "4",
+            "5 (Multiple severe symptoms, significantly limiting daily functioning)"
+         ]
+      },
+      {
+         "label":"RTN 167 - What is your current job title?",
+         "key":"field_526",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 168 - List three essential job functions that you perform regularly, e.g., operate heavy equipment and vehicles, retrieve data using a computer, develop publicity materials, or perform administrative duties",
+         "key":"field_527",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 169 - Total number of years employed",
+         "key":"field_528",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 170 - Number of months on current job",
+         "key":"field_529",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 171 - Annual Gross Income from current job",
+         "key":"field_530",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 172 - Would you prefer to work?",
+         "key":"field_531",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Fewer hours than you currently do",
+            "More hours than you currently do",
+            "About the same number of hours that you currently do"
+         ]
+      },
+      {
+         "label":"RTN 173 - How would you describe your employment?",
+         "key":"field_532",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Permanent: Full-time",
+            "Nonpermanent: Full-time",
+            "Permanent: Part-time",
+            "Nonpermanent: Part-time"
+         ]
+      },
+      {
+         "label":"RTN 174 - On a scale of 1 to 5, how closely does your current job match your personal interests and skills?",
+         "key":"field_533",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Does not match at all)",
+            "2",
+            "3 (Good match)",
+            "4",
+            "5 (Perfect match)"
+         ]
+      },
+      {
+         "label":"RTN 175 - How satisfied are you with your current job?",
+         "key":"field_534",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 176 - How certain are you that you will be employed 1 year from now?",
+         "key":"field_535",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Not certain at all)",
+            "2",
+            "3 (50/50 chance)",
+            "4",
+            "5 (Completely certain)"
+         ]
+      },
+      {
+         "label":"RTN 177 - How would you describe your job performance?",
+         "key":"field_536",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very poor)",
+            "2 (Poor)",
+            "3 (Adequate)",
+            "4 (Good)",
+            "5 (Excellent)"
+         ]
+      },
+      {
+         "label":"RTN 178 - My employer...Is receptive to hiring people with disabilities.",
+         "key":"field_537",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 179 - My employer...Helps people with disabilities stay on the job.",
+         "key":"field_538",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 180 - My employer...Meets legal obligations to employees with disabilities.",
+         "key":"field_539",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 181 - My employer...Treats employees with disabilities the same as any other employees.",
+         "key":"field_540",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 182 - My employer….Is familiar with employment protections in the Americans with Disabilities Act (ADA).",
+         "key":"field_541",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 183 - How satisfied are you with the balance between your home and work responsibilities? ",
+         "key":"field_542",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 184 - How satisfied are you with your current quality of life? ",
+         "key":"field_543",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 185 - How satisfied are you with transportation needed to maintain your employment?",
+         "key":"field_544",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 186 - How satisfied are you that your current housing meets your accessibility needs?",
+         "key":"field_545",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 187 - Accessibility: Check any problems you have getting to, from, or around on your job.  List any other accessibility problems not included in the list. Describe solutions for your two most important accessibility barriers. ",
+         "key":"field_546",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Parking",
+            "Bathrooms",
+            "Temperature",
+            "Public walks",
+            "Water fountains",
+            "Ventilation",
+            "Public transportation",
+            "Public telephone",
+            "Hazards",
+            "Passenger loading zones",
+            "Elevators/Escalators",
+            "Identification signs/labels",
+            "Entrance",
+            "Door widths",
+            "Lift Use",
+            "Stairs/Steps",
+            "Lighting",
+            "Access to personnel offices",
+            "Floors/Floor covering",
+            "Warning devices",
+            "Access to general use areas",
+            "Seating/Tables",
+            "Evacuation routes",
+            "Getting to and from work",
+            "Work surfaces/areas",
+            "Ramps (slopes, access)",
+            "Food service/cafeteria"
+         ]
+      },
+      {
+         "label":"RTN 188 - List any other accessibility problems",
+         "key":"field_547",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 189 - Describe solutions for your two most important accessibility barriers.",
+         "key":"field_548",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 190A - Physical Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_549",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Working 8 hours",
+            "Standing all day",
+            "Standing part of the time",
+            "Walking for 8 hours",
+            "Sitting",
+            "Stooping/kneeling",
+            "Climbing",
+            "Pulling",
+            "Pushing",
+            "Reaching",
+            "Talking",
+            "Seeing well",
+            "Hearing well",
+            "Handling",
+            "Raising arms above shoulders",
+            "Twisting/Turning",
+            "Using both hands",
+            "Using both legs",
+            "Using left hand",
+            "Using right hand",
+            "Using left leg",
+            "Using right leg",
+            "Lifting ___ lbs.?",
+            "Carrying ___ lbs.?"
+         ]
+      },
+      {
+         "label":"RTN 190B - Cognitive Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_577",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Decision making",
+            "Immediate memory",
+            "Judgment - interpersonal",
+            "Judgment - safety",
+            "Long-term memory",
+            "Organizing",
+            "Planning",
+            "Problem solving",
+            "Reasoning",
+            "Short-term memory",
+            "Thought processing",
+            "Thought processing"
+         ]
+      },
+      {
+         "label":"RTN 190C - Task-Related Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_578",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Able and licensed to drive",
+            "Access internet",
+            "Attain precise standards/limits",
+            "Follow specific instructions",
+            "Initiating work activities",
+            "Little performance feedback",
+            "Perform under stress/deadlines",
+            "Read written instructions",
+            "Remembering",
+            "Repetitive work",
+            "Speaking/Communicating",
+            "Use keyboard",
+            "Use telephone/cell phone",
+            "Use voice input/output with computer applications (Word, Excel, PowerPoint)",
+            "Variety of duties",
+            "Work pace/sequencing",
+            "Work volume",
+            "Writing"
+         ]
+      },
+      {
+         "label":"RTN 190D - Social Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_579",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Interacting with supervisor",
+            "Supervising others",
+            "Working alone",
+            "Working around others",
+            "Working with hostile others",
+            "Working with others"
+         ]
+      },
+      {
+         "label":"RTN 190E - Working Conditions: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_580",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Always inside",
+            "Dust",
+            "Emergencies",
+            "Fumes",
+            "Lighting",
+            "Noise",
+            "Obstacles in path",
+            "Odors",
+            "Outdoors",
+            "Slippery surfaces",
+            "Sometimes outdoors",
+            "Temperature changes",
+            "Too cold",
+            "Too hot",
+            "Too humid",
+            "Too wet"
+         ]
+      },
+      {
+         "label":"RTN 190F - Company Policies: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_581",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Inflexible job descriptions",
+            "Inflexible work schedule",
+            "Infrequent reviews of job description",
+            "Lack of flextime",
+            "No “comp” time",
+            "No accrual of sick leave",
+            "Rigid sick/vacation leave policies",
+            "Vague job descriptions"
+         ]
+      },
+      {
+         "label":"RTN 190G - Describe the two job accommodations that would be most helpful to you, e.g., restructuring of the job, changing the type of work you do, modification of work schedules, reassignment to another position, adding new technology, modification of equipment, or provision of readers and interpreters.",
+         "key":"field_550",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 191A - Career Mastery (Getting the job done): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_551",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Believing that others think I do a good job.",
+            "Understanding how my job fits into the “big picture,” i.e., the meaning of my job.",
+            "Knowing what I need to know to do my job.",
+            "Having what I need to do my job (knowledge, tools, supplies, equipment, technology)."
+         ]
+      },
+      {
+         "label":"RTN 191B - Career Mastery (Fitting into the work force): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_586",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Scheduling and planning my work ahead of time.",
+            "Working mostly because I like the job.",
+            "Doing a good job.",
+            "Willing to make changes when necessary."
+         ]
+      },
+      {
+         "label":"RTN 191C - Career Mastery (Learning the ropes): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_587",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Knowing who to go to if I need help.",
+            "Understanding company rules and regulations.",
+            "Knowing my way around work.",
+            "Feeling a “part” of what is going on at work."
+         ]
+      },
+      {
+         "label":"RTN 191D - Career Mastery (Getting along with others): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_588",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Eating lunch with friends at work.",
+            "Having many friends at work.",
+            "Looking forward to seeing my friends at work.",
+            "Knowing what is expected of me socially on the job."
+         ]
+      },
+      {
+         "label":"RTN 191E - Career Mastery (Getting ahead): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_589",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Having a plan for where I want to be in my job in the future.",
+            "Understanding what I have to do to get promoted.",
+            "Knowing what training to complete to improve chances for promotion.",
+            "Talking with supervisor about what I need to do to get promoted."
+         ]
+      },
+      {
+         "label":"RTN 191F - Career Mastery (Planning the next career step): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_590",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Considering what I will do in the future. ",
+            "Knowing what the opportunities are in this company. ",
+            "Wanting to become more specialized in my job.",
+            "Having a good idea of how to advance in this company."
+         ]
+      },
+      {
+         "label":"RTN 191G - Describe one solution for each of your two most important career advancement concerns.",
+         "key":"field_552",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 192A - In my current job...I do things that make use of my abilities.",
+         "key":"field_553",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192B - In my current job...The job gives me a feeling of accomplishment.",
+         "key":"field_554",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192C - In my current job...I am busy all the time.",
+         "key":"field_555",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192D - In my current job...I can work alone on the job.",
+         "key":"field_556",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192E - In my current job...I do something different every day.",
+         "key":"field_557",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192F - In my current job...My pay compares well with that of other workers.",
+         "key":"field_558",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192G - In my current job...The job provides for steady employment.",
+         "key":"field_559",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "First Choice",
+            "Second Choice",
+            "Third Choice"
+         ]
+      },
+      {
+         "label":"RTN 192H - In my current job...The job has good working conditions.",
+         "key":"field_560",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192I - In my current job...The job provides an opportunity for advancement.",
+         "key":"field_561",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192J - In my current job...I get recognition for the work I do.",
+         "key":"field_562",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192K - In my current job...I tell people what to do.",
+         "key":"field_563",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192L - In my current job...I am “somebody” in the community.",
+         "key":"field_564",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192M - In my current job...My co-workers are easy to make friends with.",
+         "key":"field_565",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192N - In my current job...I can do the work without feeling it is morally wrong.",
+         "key":"field_566",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192O - In my current job...I can do things for other people.",
+         "key":"field_567",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192P - In my current job...The company administers its policies fairly.",
+         "key":"field_568",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192Q - In my current job...My boss backs up the workers with top management.",
+         "key":"field_569",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192R - In my current job...My boss trains the workers well.",
+         "key":"field_570",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192S - In my current job...I try out some of my ideas.",
+         "key":"field_571",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192T - In my current job...I make decisions on my own.",
+         "key":"field_572",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192U - In my current job...I have a good idea of how to advance in this company.",
+         "key":"field_573",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192V - Describe two ways to make your job more personally satisfying",
+         "key":"field_574",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 193 - List the most significant barrier to success in your work.",
+         "key":"field_575",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 193A - Describe the solutions and people/resources that can help lift this barrier. Be specific.",
+         "key":"field_576",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 194 - List the second most significant barrier to success in your work.",
+         "key":"field_582",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 194A - Describe the solutions and people/resources that can help lift this barrier. Be specific.",
+         "key":"field_584",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 195 - List the third most significant barrier to success in your work.",
+         "key":"field_583",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 195A - Describe the solutions and people/resources that can help lift this barrier. Be specific.",
+         "key":"field_585",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 196 - Enrolled?",
+         "key":"field_736",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 196 A - Reason Not Enrolled",
+         "key":"field_737",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Not Eligible",
+            "Not Interested",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 197 - Employer Name",
+         "key":"field_740",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 198 - Employer Contact Person",
+         "key":"field_741",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 199 - Employer Street Address",
+         "key":"field_742",
+         "required":false,
+         "type":"address"
+      },
+      {
+         "label":"RTN 200 - Employer Email Address",
+         "key":"field_743",
+         "required":false,
+         "type":"email"
+      },
+      {
+         "label":"RTN 201 - Employer Telephone Number",
+         "key":"field_744",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 202 - Participant assigned to Group A or Group B?",
+         "key":"field_732",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Group A",
+            "Group B"
+         ]
+      },
+      {
+         "label":"RTN 203 - Has the participant's work status changed?",
+         "key":"field_781",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 204 - Date Exit Letter Sent",
+         "key":"field_785",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"Initial Contact Finalized Consent",
+         "key":"field_780",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 57A - Different Employer Job Type",
+         "key":"field_782",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 57B - Different Employer Name (Company)",
+         "key":"field_783",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 57C - Different Employer Contact",
+         "key":"field_784",
+         "required":false,
+         "type":"short_text"
+      }
+   ]
+}"401
+Dillons-MBP-3":desktop dillonsheppard$ python3 api.py{
+   "fields":[
+      {
+         "label":"RTW - Attach File",
+         "key":"field_619",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Baseline Survey One",
+         "key":"field_514",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Baseline Survey Two",
+         "key":"field_515",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Employer Release Form",
+         "key":"field_773",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Job Description Form",
+         "key":"field_774",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"PPR",
+         "key":"field_777",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Restrictions",
+         "key":"field_779",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Coordinator",
+         "key":"field_19",
+         "required":false,
+         "type":"connection",
+         "relationship":{
+            "object":"object_3",
+            "has":"one",
+            "belongs_to":"many"
+         }
+      },
+      {
+         "label":"Exit Interview File",
+         "key":"field_653",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Service - Plan Addendum 1",
+         "key":"field_620",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Service - Plan Addendum 2",
+         "key":"field_621",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Service - Plan Addendum 3",
+         "key":"field_622",
+         "required":false,
+         "type":"file"
+      },
+      {
+         "label":"Name",
+         "key":"field_18",
+         "required":false,
+         "type":"name"
+      },
+      {
+         "label":"Random ID",
+         "key":"field_391",
+         "required":false,
+         "type":"concatenation"
+      },
+      {
+         "label":"Referral ID",
+         "key":"field_392",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"Status",
+         "key":"field_393",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 1 - ID",
+         "key":"field_2",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 1A - Date of Birth",
+         "key":"field_395",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 1B - Address",
+         "key":"field_512",
+         "required":false,
+         "type":"address"
+      },
+      {
+         "label":"RTN 1C - Email Address",
+         "key":"field_436",
+         "required":false,
+         "type":"email"
+      },
+      {
+         "label":"RTN 1D - Primary Phone",
+         "key":"field_437",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 1E - Secondary Phone",
+         "key":"field_438",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 2 - Date of Birth (calculate out as numerical age)",
+         "key":"field_776",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 3 - What is your sex?",
+         "key":"field_444",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Male",
+            "Female"
+         ]
+      },
+      {
+         "label":"RTN 4 - Are you of Hispanic, Latino, or Spanish Origin?",
+         "key":"field_445",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 5 - What is your race?",
+         "key":"field_446",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "White",
+            "Black or African American",
+            "American Indian or Alaska Native",
+            "Asian",
+            "Hawaiian or Pacific Islander",
+            "Other Race",
+            "Multiple Races"
+         ]
+      },
+      {
+         "label":"RTN 6 - What is the highest educational degree you have completed?",
+         "key":"field_453",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Less than a high school diploma",
+            "High school diploma",
+            "GED or certificate of completion",
+            "Occupational certificate/license or 2-year college degree",
+            "4-year college degree (bachelor's degree)",
+            "Post-graduate degree (master's, doctorate, professional)"
+         ]
+      },
+      {
+         "label":"RTN 7 - In general, would you say your current health is?",
+         "key":"field_463",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Excellent",
+            "Very Good",
+            "Good",
+            "Fair",
+            "Poor"
+         ]
+      },
+      {
+         "label":"RTN 8 - What describes your current employment status....",
+         "key":"field_488",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Not employed",
+            "Self employed",
+            "Employed at private company",
+            "Non-profit or government "
+         ]
+      },
+      {
+         "label":"RTN 9 - How many hours per week did you usually work before your injury/illness?",
+         "key":"field_511",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 10 - How long has it been since you last worked?",
+         "key":"field_409",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "I worked today",
+            "No more than a week ago",
+            "More than a week ago but no more than a month ago",
+            "More than a month ago but no more than three months ago More than three months ago"
+         ]
+      },
+      {
+         "label":"RTN 11 - How long have you been continuously employed at your current job?",
+         "key":"field_421",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "< 6 months",
+            "6 months to 1 year",
+            "1 year to 2 years",
+            "2 years to 5 years",
+            "More than 5 years"
+         ]
+      },
+      {
+         "label":"RTN 12 - Date of Onset of Primary Injury or Illness",
+         "key":"field_428",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 12 A - Weeks Since Injury Illness",
+         "key":"field_735",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 13 - Date of Enrollment in RETAIN:",
+         "key":"field_429",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 14 - What is the ICD-10 code of the primary injury or illness?",
+         "key":"field_430",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 15 - Provide a brief description of the primary injury or illness:",
+         "key":"field_431",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 15A - Injury/Illnesss Category",
+         "key":"field_750",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Traumatic Injuries and Disorders",
+            "Systemic Diseases or Disorders",
+            "Infectious and Parasitic Diseases",
+            "Neoplasms, Tumors, and Cancer",
+            "Symptoms, Signs, and Ill-defined Conditions",
+            "Other Conditions or Disorders",
+            "Multiple Diseases, Conditions, or Disorders",
+            "Nonclassifiable"
+         ]
+      },
+      {
+         "label":"RTN 16 - Is the primary of illness caused, at least in part, by work-related factors?",
+         "key":"field_432",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 17 - Is the primary injury or illness part of a workers' compensation claim?",
+         "key":"field_433",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 18 - Is the primary condition a result of an accident or injury?",
+         "key":"field_434",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Accident or Injury",
+            "Illness"
+         ]
+      },
+      {
+         "label":"RTN 19 -  Is the primary injury or illness:",
+         "key":"field_435",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "New condition",
+            "Worsening or an existing condition"
+         ]
+      },
+      {
+         "label":"RTN 20 - Industry classification of pre-injury/illness employer:",
+         "key":"field_440",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Agriculture or Mining",
+            "Construction or Utilities",
+            "Manufacturing",
+            "Retail Trade",
+            "Wholesale Trade or Transportation",
+            "Information",
+            "Finance or Real Estate",
+            "Professional",
+            "Management or Administrative Services",
+            "Education or Health Care",
+            "Accommodation and Food Services,",
+            "Arts and Entertainment",
+            "Public Administration",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 20A - Specify Other RTN 20 Industry Classification",
+         "key":"field_439",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 21 - Occupational classification or pre-injury/illness job:",
+         "key":"field_441",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Management",
+            "Professional",
+            "Service",
+            "Sales and office",
+            "Natural resources",
+            "Construction or maintenance",
+            "Production",
+            "Transportation or material moving"
+         ]
+      },
+      {
+         "label":"RTN 22 - Initial Date of Contact",
+         "key":"field_442",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 23 - Date of Release Consent:",
+         "key":"field_708",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 24 - Date of Contact:",
+         "key":"field_715",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 30 - Physical Change:",
+         "key":"field_719",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 30A - Specify Physical Change(s):",
+         "key":"field_720",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 31 -  Accessible communications and assistive technologies:",
+         "key":"field_721",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 31A - Specify  Accessible communications and Assistance:",
+         "key":"field_722",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 32 - Modified work tasks:",
+         "key":"field_723",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 32A - Specify Modified Work Tasks:",
+         "key":"field_724",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 33 - Policy enhancements:",
+         "key":"field_725",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 33A - Specify Policy Enhancements:",
+         "key":"field_726",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 34 - Other Accommodations:",
+         "key":"field_727",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 34A - Specify Other Accommodations:",
+         "key":"field_728",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 35 - Date referred Worker Participant or Employer to any Employee Assistance Program (EAP):",
+         "key":"field_625",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 36 - Date referred Worker Participant or Employer to the Job Accommodation Network (JAN):",
+         "key":"field_626",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 37 - Date - Report of Accident Submitted",
+         "key":"field_443",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 38 - Date Return-to-Work Plan was finalized:",
+         "key":"field_654",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 38A - Date of RTW Plan:",
+         "key":"field_591",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 39 - Date of First Follow-up Communication after Worker Participant Returned to Work",
+         "key":"field_755",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 40 - Main Provider Type:",
+         "key":"field_716",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Primary Care Physician",
+            "Occupational Medicine Physician",
+            "Physical Medicine and Rehab Specialist",
+            "Orthopedic Surgeon",
+            "Neurosurgeon",
+            "Physical Therapist",
+            "Chiropractor",
+            "Registered Nurse",
+            "Nurse Practitioner",
+            "Physician Assistant",
+            "Mental Health Professional",
+            "Other Physician or Clinician",
+            "Workforce Development Professional",
+            "Vocational Rehab Counselor",
+            "Other Workforce Professional"
+         ]
+      },
+      {
+         "label":"RTN 41 - Date Participant was 1st referred to employment-related services while enrolled in RETAIN (blank if not referred):",
+         "key":"field_627",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 42 - Date Participant 1st began employment-related services while enrolled in RETAIN (blank if not referred):",
+         "key":"field_655",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 43A - First date Participant accessed self-services while enrolled in RETAIN:",
+         "key":"field_656",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 43B - Type of Service Self-Accessed",
+         "key":"field_657",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 44A - First date Participant received any staff-assisted basic services:",
+         "key":"field_658",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 44B - Type of Service Received (Staff Assisted)",
+         "key":"field_659",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 45 - Most recent date a job seeker accessed self-services during the reporting period:",
+         "key":"field_660",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 46 - Most recent date Participant received any basic career service:",
+         "key":"field_661",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 47 - First date Participant received any individualized career service on or after the date of participation:",
+         "key":"field_662",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 48 - Most recent date Participant received individualized career services:",
+         "key":"field_663",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 49 - Date Participant's Individual Employment Plan (IEP) was created or established:",
+         "key":"field_664",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 50 - Date Participant's first training service began",
+         "key":"field_665",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 51 - Most recent date Participant received follow-up services:",
+         "key":"field_666",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 52 - Date Participant began an absence from work (blank if no absence from work):",
+         "key":"field_628",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 53 - Total number of work days lost the Participant experienced while enrolled in RETAIN:",
+         "key":"field_629",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 54 - Total number of days of restricted work activity the Participant experienced while enrolled in RETAIN:",
+         "key":"field_630",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 55 - Date Participant returned to work (blank if did not return):",
+         "key":"field_631",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 56 - Number of hours per week the Participant worked upon return to work (blank if did not return):",
+         "key":"field_632",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 57 - Return to Work Job and Employer:",
+         "key":"field_633",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Participant returned to pre-injury/illness job with the same employer",
+            "Participant returned to work in a different job with the pre-injury/illness with the same employer",
+            "Participant returned to different job and with a different employer",
+            "Participant has not returned to work"
+         ]
+      },
+      {
+         "label":"RTN 58 - Retain Participation Status:",
+         "key":"field_634",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Participant is enrolled in RETAIN",
+            "Participant has exited RETAIN"
+         ]
+      },
+      {
+         "label":"RTN 59 - Date of Exit from RETAIN",
+         "key":"field_635",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 60 - Referral to service beyond RETAIN after 6 months:",
+         "key":"field_652",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Participant did not return to work within 6 months of enrolling in RETAIN and was referred to services beyond RETAIN",
+            "Participant did not return to work within 6 months of enrolling in RETAIN and was not referred to services beyond RETAIN",
+            "Participant is still enrolled in RETAIN"
+         ]
+      },
+      {
+         "label":"RTN 60A - Specify Other RTN 60 Referral to service beyond RETAIN",
+         "key":"field_668",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 61 - Program Eligibility Work",
+         "key":"field_447",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 62 - Program Eligibility Injury Type",
+         "key":"field_448",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 63 - Work Income",
+         "key":"field_449",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 64 - SSI/SSDI",
+         "key":"field_450",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 66 - How did you hear about RETAIN-KY?",
+         "key":"field_451",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Healthcare provider",
+            "Employer",
+            "Absence Management Company",
+            "Social Worker/Case Manager",
+            "Friend/Family",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 67 - How did you hear about RETAIN-KY (please specify)?",
+         "key":"field_452",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 70F - Employer Fax Number",
+         "key":"field_778",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 71 - RTW Reviewed Basics",
+         "key":"field_454",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 72 - RTW Answered Questions",
+         "key":"field_455",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 73 - Level of Interest",
+         "key":"field_456",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 77 - SSN",
+         "key":"field_457",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 78 - Preferred Language",
+         "key":"field_458",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 79A - Private insurance plan through own employer",
+         "key":"field_459",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 79B - Private insurance plan through family member's employer",
+         "key":"field_460",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 79C - Private insurance plan not connected to any employer",
+         "key":"field_461",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"Other Insurance (Not Listed Above)",
+         "key":"field_462",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 80 - Completed BS1",
+         "key":"field_466",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80A - Medicare",
+         "key":"field_464",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80B - Medicaid",
+         "key":"field_465",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80C - Veteran's benefits",
+         "key":"field_467",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80D - SSI/SSDI",
+         "key":"field_468",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80E - Veteran Benefits",
+         "key":"field_469",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80F - Worker's compensation",
+         "key":"field_470",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80G - Disability insurance",
+         "key":"field_471",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Yes",
+            "No",
+            "Don't Know"
+         ]
+      },
+      {
+         "label":"RTN 80H - Other public programs (not listed above)",
+         "key":"field_472",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 81 - RTW Completed BS2",
+         "key":"field_473",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 82 - RTW Med Release",
+         "key":"field_474",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 83 - RTW Emp Release",
+         "key":"field_475",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 84 - RTW Consent RETAIN",
+         "key":"field_476",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 85 - Intake Location",
+         "key":"field_477",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 86A - Marital Status",
+         "key":"field_478",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Currently Married/Partnership",
+            "Divorced",
+            "Widowed/Widower",
+            "Single",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 86B - Marital Status Other",
+         "key":"field_479",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 86C - Spouse Living with Participant?",
+         "key":"field_480",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 86D - Spouse Employed?",
+         "key":"field_481",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 87A - Emergency Contact",
+         "key":"field_482",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 87B - Emergency Contact Phone",
+         "key":"field_483",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 87C - Emergency Contact Relationship",
+         "key":"field_768",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 88 - Last Date Worked",
+         "key":"field_484",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 89 - Residence",
+         "key":"field_487",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "House - Owned",
+            "House - Rented",
+            "Apartment",
+            "Trailer",
+            "Homeless",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 89A - Residence Other",
+         "key":"field_485",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 89B - Residence Persons",
+         "key":"field_486",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 90 - Education Enrollment",
+         "key":"field_489",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 91A - Computer Skills",
+         "key":"field_490",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 91B - Computer Skills",
+         "key":"field_491",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 91C - Computer Skills",
+         "key":"field_492",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 91D - Computer Skills",
+         "key":"field_493",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 91E - Computer Skills",
+         "key":"field_494",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 91F - Computer Skills",
+         "key":"field_495",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 92 - Work History",
+         "key":"field_496",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 93A - Restrictions",
+         "key":"field_497",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 93B - Allergies",
+         "key":"field_498",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 93C - Glasses",
+         "key":"field_499",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 93D - Dominant Hand",
+         "key":"field_500",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            
+         ]
+      },
+      {
+         "label":"RTN 94A - Drivers License",
+         "key":"field_501",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 94B - Reliable Vehicle",
+         "key":"field_502",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 94C - Transportation Other",
+         "key":"field_503",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 95 - Military Service",
+         "key":"field_504",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 96A - Criminal Record",
+         "key":"field_505",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 96B - Criminal Record Explain",
+         "key":"field_506",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 97 - Condition Work",
+         "key":"field_507",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 98 - Job Physical Demand",
+         "key":"field_508",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 99A - Caregiver Child",
+         "key":"field_509",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 99B - Caregiver Elderly",
+         "key":"field_510",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 100 - Intellectual/Cognitive",
+         "key":"field_397",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 101 - Visual Impairment",
+         "key":"field_398",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 102 - Motor Skills",
+         "key":"field_399",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 103 - Chronic Pain",
+         "key":"field_400",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 104 - Speech/Communication",
+         "key":"field_401",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 105 - Progressive",
+         "key":"field_402",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 106 - Mental Health Condition",
+         "key":"field_404",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 106A - Mental Health Condition Other",
+         "key":"field_403",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "First Choice",
+            "Second Choice",
+            "Third Choice"
+         ]
+      },
+      {
+         "label":"RTN 107 - Mobility",
+         "key":"field_406",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 107A - Mobility Other",
+         "key":"field_405",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 108 - Vocational Rehab",
+         "key":"field_407",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 108A - Name",
+         "key":"field_769",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 108B - Phone Number",
+         "key":"field_771",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 108C - Email Address",
+         "key":"field_772",
+         "required":false,
+         "type":"email"
+      },
+      {
+         "label":"RTN 109 - Short Term Disability",
+         "key":"field_408",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 110 - Disability Benefits",
+         "key":"field_410",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 111 - Disability Requirements",
+         "key":"field_411",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            
+         ]
+      },
+      {
+         "label":"RTN 112 - Height",
+         "key":"field_412",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 113 - Weight",
+         "key":"field_413",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 114 - Tobacco Use",
+         "key":"field_414",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "false"
+         ]
+      },
+      {
+         "label":"RTN 115 - Drinks",
+         "key":"field_415",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 116 - Work Accommodations",
+         "key":"field_417",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 116A - Work Accommodations Used",
+         "key":"field_416",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 117 - Drugs",
+         "key":"field_418",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 118 - Exercise",
+         "key":"field_419",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 119 - Physical Stamina",
+         "key":"field_420",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            
+         ]
+      },
+      {
+         "label":"RTN 120 - Sleep",
+         "key":"field_422",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 121 - Return To Employer",
+         "key":"field_423",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 121B - Participant Tier",
+         "key":"field_424",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "First Choice",
+            "Second Choice",
+            "Third Choice"
+         ]
+      },
+      {
+         "label":"RTN 122 - Did your most recent job pay more than$12 per hour?",
+         "key":"field_513",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 123 - Did your most recent job require more than high school diploma?  ",
+         "key":"field_426",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 124 -  Did it take 30 minutes or more minutes to get to your most recent job from where you lived? ",
+         "key":"field_427",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 125 - Contact Person Title:",
+         "key":"field_709",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 126 - Date of Request for Restrictions",
+         "key":"field_710",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 127 - Restriction received from:",
+         "key":"field_711",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 128 - Date Release / Restrictions Received:",
+         "key":"field_712",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 129 - Does the employee retain the capacity to return to work performed at the time of illness or injury?",
+         "key":"field_713",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 130 - Which restrictions, if any, should be placed upon employee's work activities as a result of the illness or injury?",
+         "key":"field_714",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 131 - Obtain physical/psychological restrictions and supporting documents (e.g. doctor's notes, med/psych notes):",
+         "key":"field_717",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 132 - Obtain current medications and how this may impact ability to perform work tasks:",
+         "key":"field_718",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 133 - Date of Initial Assessment:",
+         "key":"field_729",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 134 - Did the RTW Team provide direct technical assistance to employer to implement workplace accommodation(s) for worker participant?",
+         "key":"field_730",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 135 - Number of times RTW Coordinator provided assistance to employer: (enter 0 for N/A)",
+         "key":"field_731",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 136 - Goal Date to Return to Work:",
+         "key":"field_592",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 137A - Service 1 - Case Management Service:",
+         "key":"field_593",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 137B - Service 1 - Provider:",
+         "key":"field_594",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 137C - Service 1 - Beginning Date:",
+         "key":"field_595",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 137D - Service 1 - Ending Date (84 days from intake):",
+         "key":"field_596",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 137E - Service 1 - Other Information:",
+         "key":"field_597",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 138A - Service 2 - Case Management Service:",
+         "key":"field_598",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 138B - Service 2 - Provider:",
+         "key":"field_599",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 138C - Service 2 - Beginning Date:",
+         "key":"field_600",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 138D - Service 2 - Ending Date (84 days from intake):",
+         "key":"field_601",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 138E - Service 2 - Other Information:",
+         "key":"field_602",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 139A - Service 3 - Case Management Service:",
+         "key":"field_603",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 139B - Service 3 - Provider:",
+         "key":"field_604",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 139C - Service 3 - Beginning Date:",
+         "key":"field_605",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 139D - Service 3 - Ending Date (84 days from intake):",
+         "key":"field_606",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 139E - Service 3 - Other Information:",
+         "key":"field_607",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 140A - Service 4 - Case Management Service:",
+         "key":"field_608",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 140B - Service 4 - Provider:",
+         "key":"field_609",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 140C - Service 4 - Beginning Date:",
+         "key":"field_610",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 140D - Service 4 - Ending Date (84 days from intake):",
+         "key":"field_611",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 140E - Service 4 - Other Information:",
+         "key":"field_612",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 141A - Service 5 - Case Management Service:",
+         "key":"field_613",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 141B - Service 5 - Provider:",
+         "key":"field_614",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 141C - Service 5 - Beginning Date:",
+         "key":"field_615",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 141D - Service 5 - Ending Date (84 days from intake):",
+         "key":"field_616",
+         "required":false,
+         "type":"equation"
+      },
+      {
+         "label":"RTN 141E - Service 5 - Other Information:",
+         "key":"field_617",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 142 - The Worker Participant has accepted and has signed off on the Return to Work Plan?",
+         "key":"field_618",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 143A - Returning to Work Job and Employer - Given employee's restrictions disclosed by the physician, the employer believes the employee is:",
+         "key":"field_669",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Able to return to pre-injury/illness job",
+            "Able to return to different job with current employer",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 143B - Specify Other (Returning to Work...)",
+         "key":"field_670",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 144 - Obtain a description of the work environment and job tasks performed:",
+         "key":"field_671",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 145 - RTW Coordinator performed Job Analysis (see template)?",
+         "key":"field_672",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 146 - Obtain information about employee work strengths from appropriate source (e.g. existing employee evaluations or direct supervisor): ",
+         "key":"field_673",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 147A - Work Health Provider Name",
+         "key":"field_674",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 147B - Relationship to the Participant",
+         "key":"field_675",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 148 A - Exit Interview completed",
+         "key":"field_648",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 148 B - If Exit Interview was not completed, please specify why",
+         "key":"field_649",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 150 - Is this the fourth and final attempt to contact for Exit Interview?",
+         "key":"field_650",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 151 - Date of last contact (WFM)",
+         "key":"field_700",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 152 - Date of letter sent (WFM)",
+         "key":"field_701",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 153 - Date Participant placed in Withdrawn from Maintenance (Associate withe RTN 59 - Exit from RETAIN)",
+         "key":"field_702",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"RTN 161 - Contacted",
+         "key":"field_516",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Person was successfully contacted",
+            "Person was never successfully contacted"
+         ]
+      },
+      {
+         "label":"RTN 161A - Reason Not Contacted",
+         "key":"field_517",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Contacted, no response",
+            "Inaccurate contact info",
+            "No contact info"
+         ]
+      },
+      {
+         "label":"RTN 162 - Eligible",
+         "key":"field_518",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Person is eligible",
+            "Person is not eligible"
+         ]
+      },
+      {
+         "label":"RTN 162A - Have you sustained an injury or acquired an illness outside of the workplace that limits your ability to work? ",
+         "key":"field_519",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 162B - In the last 12 months, have you worked at a job that paid you more than $1,000 a month before taxes and deductions? ",
+         "key":"field_738",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 162C - Have you applied for or received disability benefits from the Social Security Administration within the last five years – either Social Security Disability Insurance (SSDI) or Supplemental Security Income (SSI)?",
+         "key":"field_739",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 162 D - Reason Not Elligible",
+         "key":"field_752",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "No work limitation due to injury/illness",
+            "Did not earn at least 1000 in the last 12 months",
+            "Applied for SSI/SSDI last five years"
+         ]
+      },
+      {
+         "label":"RTN 163 - Expressed Interest",
+         "key":"field_520",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 163A - Reason Not Interested",
+         "key":"field_521",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 164 - How old were you when you acquired this disability?",
+         "key":"field_523",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 165 - Describe how the disability affects your functioning, e.g., weakness, chronic fatigue, limited vision, poor balance, low stress tolerance.  Rank order the entries in terms of their impact, e.g., the first effect listed represents the greatest problem.",
+         "key":"field_525",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 166 - On a scale of 1 to 5, how would you rate the severity of your current symptoms? ",
+         "key":"field_524",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (No current symptoms)",
+            "2",
+            "3 (Multiple symptoms, occasionally limiting daily functioning)",
+            "4",
+            "5 (Multiple severe symptoms, significantly limiting daily functioning)"
+         ]
+      },
+      {
+         "label":"RTN 167 - What is your current job title?",
+         "key":"field_526",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 168 - List three essential job functions that you perform regularly, e.g., operate heavy equipment and vehicles, retrieve data using a computer, develop publicity materials, or perform administrative duties",
+         "key":"field_527",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 169 - Total number of years employed",
+         "key":"field_528",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 170 - Number of months on current job",
+         "key":"field_529",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 171 - Annual Gross Income from current job",
+         "key":"field_530",
+         "required":false,
+         "type":"number"
+      },
+      {
+         "label":"RTN 172 - Would you prefer to work?",
+         "key":"field_531",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Fewer hours than you currently do",
+            "More hours than you currently do",
+            "About the same number of hours that you currently do"
+         ]
+      },
+      {
+         "label":"RTN 173 - How would you describe your employment?",
+         "key":"field_532",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Permanent: Full-time",
+            "Nonpermanent: Full-time",
+            "Permanent: Part-time",
+            "Nonpermanent: Part-time"
+         ]
+      },
+      {
+         "label":"RTN 174 - On a scale of 1 to 5, how closely does your current job match your personal interests and skills?",
+         "key":"field_533",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Does not match at all)",
+            "2",
+            "3 (Good match)",
+            "4",
+            "5 (Perfect match)"
+         ]
+      },
+      {
+         "label":"RTN 175 - How satisfied are you with your current job?",
+         "key":"field_534",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 176 - How certain are you that you will be employed 1 year from now?",
+         "key":"field_535",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Not certain at all)",
+            "2",
+            "3 (50/50 chance)",
+            "4",
+            "5 (Completely certain)"
+         ]
+      },
+      {
+         "label":"RTN 177 - How would you describe your job performance?",
+         "key":"field_536",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very poor)",
+            "2 (Poor)",
+            "3 (Adequate)",
+            "4 (Good)",
+            "5 (Excellent)"
+         ]
+      },
+      {
+         "label":"RTN 178 - My employer...Is receptive to hiring people with disabilities.",
+         "key":"field_537",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 179 - My employer...Helps people with disabilities stay on the job.",
+         "key":"field_538",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 180 - My employer...Meets legal obligations to employees with disabilities.",
+         "key":"field_539",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 181 - My employer...Treats employees with disabilities the same as any other employees.",
+         "key":"field_540",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 182 - My employer….Is familiar with employment protections in the Americans with Disabilities Act (ADA).",
+         "key":"field_541",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Strongly Disagree)",
+            "2 (Disagree)",
+            "3 (Undecided)",
+            "4 (Agree)",
+            "5 (Strongly Disagree)"
+         ]
+      },
+      {
+         "label":"RTN 183 - How satisfied are you with the balance between your home and work responsibilities? ",
+         "key":"field_542",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 184 - How satisfied are you with your current quality of life? ",
+         "key":"field_543",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 185 - How satisfied are you with transportation needed to maintain your employment?",
+         "key":"field_544",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 186 - How satisfied are you that your current housing meets your accessibility needs?",
+         "key":"field_545",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "1 (Very Dissatisfied)",
+            "2 (Dissatisfied)",
+            "3 (Undecided)",
+            "4 (Satisfied)",
+            "5 (Very Satisfied)"
+         ]
+      },
+      {
+         "label":"RTN 187 - Accessibility: Check any problems you have getting to, from, or around on your job.  List any other accessibility problems not included in the list. Describe solutions for your two most important accessibility barriers. ",
+         "key":"field_546",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Parking",
+            "Bathrooms",
+            "Temperature",
+            "Public walks",
+            "Water fountains",
+            "Ventilation",
+            "Public transportation",
+            "Public telephone",
+            "Hazards",
+            "Passenger loading zones",
+            "Elevators/Escalators",
+            "Identification signs/labels",
+            "Entrance",
+            "Door widths",
+            "Lift Use",
+            "Stairs/Steps",
+            "Lighting",
+            "Access to personnel offices",
+            "Floors/Floor covering",
+            "Warning devices",
+            "Access to general use areas",
+            "Seating/Tables",
+            "Evacuation routes",
+            "Getting to and from work",
+            "Work surfaces/areas",
+            "Ramps (slopes, access)",
+            "Food service/cafeteria"
+         ]
+      },
+      {
+         "label":"RTN 188 - List any other accessibility problems",
+         "key":"field_547",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 189 - Describe solutions for your two most important accessibility barriers.",
+         "key":"field_548",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 190A - Physical Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_549",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Working 8 hours",
+            "Standing all day",
+            "Standing part of the time",
+            "Walking for 8 hours",
+            "Sitting",
+            "Stooping/kneeling",
+            "Climbing",
+            "Pulling",
+            "Pushing",
+            "Reaching",
+            "Talking",
+            "Seeing well",
+            "Hearing well",
+            "Handling",
+            "Raising arms above shoulders",
+            "Twisting/Turning",
+            "Using both hands",
+            "Using both legs",
+            "Using left hand",
+            "Using right hand",
+            "Using left leg",
+            "Using right leg",
+            "Lifting ___ lbs.?",
+            "Carrying ___ lbs.?"
+         ]
+      },
+      {
+         "label":"RTN 190B - Cognitive Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_577",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Decision making",
+            "Immediate memory",
+            "Judgment - interpersonal",
+            "Judgment - safety",
+            "Long-term memory",
+            "Organizing",
+            "Planning",
+            "Problem solving",
+            "Reasoning",
+            "Short-term memory",
+            "Thought processing",
+            "Thought processing"
+         ]
+      },
+      {
+         "label":"RTN 190C - Task-Related Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_578",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Able and licensed to drive",
+            "Access internet",
+            "Attain precise standards/limits",
+            "Follow specific instructions",
+            "Initiating work activities",
+            "Little performance feedback",
+            "Perform under stress/deadlines",
+            "Read written instructions",
+            "Remembering",
+            "Repetitive work",
+            "Speaking/Communicating",
+            "Use keyboard",
+            "Use telephone/cell phone",
+            "Use voice input/output with computer applications (Word, Excel, PowerPoint)",
+            "Variety of duties",
+            "Work pace/sequencing",
+            "Work volume",
+            "Writing"
+         ]
+      },
+      {
+         "label":"RTN 190D - Social Abilities: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_579",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Interacting with supervisor",
+            "Supervising others",
+            "Working alone",
+            "Working around others",
+            "Working with hostile others",
+            "Working with others"
+         ]
+      },
+      {
+         "label":"RTN 190E - Working Conditions: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_580",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Always inside",
+            "Dust",
+            "Emergencies",
+            "Fumes",
+            "Lighting",
+            "Noise",
+            "Obstacles in path",
+            "Odors",
+            "Outdoors",
+            "Slippery surfaces",
+            "Sometimes outdoors",
+            "Temperature changes",
+            "Too cold",
+            "Too hot",
+            "Too humid",
+            "Too wet"
+         ]
+      },
+      {
+         "label":"RTN 190F - Company Policies: Check any essential job functions or conditions that pose problems for you.",
+         "key":"field_581",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Inflexible job descriptions",
+            "Inflexible work schedule",
+            "Infrequent reviews of job description",
+            "Lack of flextime",
+            "No “comp” time",
+            "No accrual of sick leave",
+            "Rigid sick/vacation leave policies",
+            "Vague job descriptions"
+         ]
+      },
+      {
+         "label":"RTN 190G - Describe the two job accommodations that would be most helpful to you, e.g., restructuring of the job, changing the type of work you do, modification of work schedules, reassignment to another position, adding new technology, modification of equipment, or provision of readers and interpreters.",
+         "key":"field_550",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 191A - Career Mastery (Getting the job done): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_551",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Believing that others think I do a good job.",
+            "Understanding how my job fits into the “big picture,” i.e., the meaning of my job.",
+            "Knowing what I need to know to do my job.",
+            "Having what I need to do my job (knowledge, tools, supplies, equipment, technology)."
+         ]
+      },
+      {
+         "label":"RTN 191B - Career Mastery (Fitting into the work force): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_586",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Scheduling and planning my work ahead of time.",
+            "Working mostly because I like the job.",
+            "Doing a good job.",
+            "Willing to make changes when necessary."
+         ]
+      },
+      {
+         "label":"RTN 191C - Career Mastery (Learning the ropes): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_587",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Knowing who to go to if I need help.",
+            "Understanding company rules and regulations.",
+            "Knowing my way around work.",
+            "Feeling a “part” of what is going on at work."
+         ]
+      },
+      {
+         "label":"RTN 191D - Career Mastery (Getting along with others): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_588",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Eating lunch with friends at work.",
+            "Having many friends at work.",
+            "Looking forward to seeing my friends at work.",
+            "Knowing what is expected of me socially on the job."
+         ]
+      },
+      {
+         "label":"RTN 191E - Career Mastery (Getting ahead): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_589",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Having a plan for where I want to be in my job in the future.",
+            "Understanding what I have to do to get promoted.",
+            "Knowing what training to complete to improve chances for promotion.",
+            "Talking with supervisor about what I need to do to get promoted."
+         ]
+      },
+      {
+         "label":"RTN 191F - Career Mastery (Planning the next career step): Check any concerns that affect your success in completing career advancement tasks.",
+         "key":"field_590",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Considering what I will do in the future. ",
+            "Knowing what the opportunities are in this company. ",
+            "Wanting to become more specialized in my job.",
+            "Having a good idea of how to advance in this company."
+         ]
+      },
+      {
+         "label":"RTN 191G - Describe one solution for each of your two most important career advancement concerns.",
+         "key":"field_552",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 192A - In my current job...I do things that make use of my abilities.",
+         "key":"field_553",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192B - In my current job...The job gives me a feeling of accomplishment.",
+         "key":"field_554",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192C - In my current job...I am busy all the time.",
+         "key":"field_555",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192D - In my current job...I can work alone on the job.",
+         "key":"field_556",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192E - In my current job...I do something different every day.",
+         "key":"field_557",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192F - In my current job...My pay compares well with that of other workers.",
+         "key":"field_558",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192G - In my current job...The job provides for steady employment.",
+         "key":"field_559",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "First Choice",
+            "Second Choice",
+            "Third Choice"
+         ]
+      },
+      {
+         "label":"RTN 192H - In my current job...The job has good working conditions.",
+         "key":"field_560",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192I - In my current job...The job provides an opportunity for advancement.",
+         "key":"field_561",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192J - In my current job...I get recognition for the work I do.",
+         "key":"field_562",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192K - In my current job...I tell people what to do.",
+         "key":"field_563",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192L - In my current job...I am “somebody” in the community.",
+         "key":"field_564",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192M - In my current job...My co-workers are easy to make friends with.",
+         "key":"field_565",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192N - In my current job...I can do the work without feeling it is morally wrong.",
+         "key":"field_566",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192O - In my current job...I can do things for other people.",
+         "key":"field_567",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192P - In my current job...The company administers its policies fairly.",
+         "key":"field_568",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192Q - In my current job...My boss backs up the workers with top management.",
+         "key":"field_569",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192R - In my current job...My boss trains the workers well.",
+         "key":"field_570",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192S - In my current job...I try out some of my ideas.",
+         "key":"field_571",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192T - In my current job...I make decisions on my own.",
+         "key":"field_572",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192U - In my current job...I have a good idea of how to advance in this company.",
+         "key":"field_573",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Too Little",
+            "About Right",
+            "Too Much"
+         ]
+      },
+      {
+         "label":"RTN 192V - Describe two ways to make your job more personally satisfying",
+         "key":"field_574",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 193 - List the most significant barrier to success in your work.",
+         "key":"field_575",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 193A - Describe the solutions and people/resources that can help lift this barrier. Be specific.",
+         "key":"field_576",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 194 - List the second most significant barrier to success in your work.",
+         "key":"field_582",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 194A - Describe the solutions and people/resources that can help lift this barrier. Be specific.",
+         "key":"field_584",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 195 - List the third most significant barrier to success in your work.",
+         "key":"field_583",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 195A - Describe the solutions and people/resources that can help lift this barrier. Be specific.",
+         "key":"field_585",
+         "required":false,
+         "type":"paragraph_text"
+      },
+      {
+         "label":"RTN 196 - Enrolled?",
+         "key":"field_736",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 196 A - Reason Not Enrolled",
+         "key":"field_737",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Not Eligible",
+            "Not Interested",
+            "Other"
+         ]
+      },
+      {
+         "label":"RTN 197 - Employer Name",
+         "key":"field_740",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 198 - Employer Contact Person",
+         "key":"field_741",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 199 - Employer Street Address",
+         "key":"field_742",
+         "required":false,
+         "type":"address"
+      },
+      {
+         "label":"RTN 200 - Employer Email Address",
+         "key":"field_743",
+         "required":false,
+         "type":"email"
+      },
+      {
+         "label":"RTN 201 - Employer Telephone Number",
+         "key":"field_744",
+         "required":false,
+         "type":"phone"
+      },
+      {
+         "label":"RTN 202 - Participant assigned to Group A or Group B?",
+         "key":"field_732",
+         "required":false,
+         "type":"multiple_choice",
+         "choices":[
+            "Group A",
+            "Group B"
+         ]
+      },
+      {
+         "label":"RTN 203 - Has the participant's work status changed?",
+         "key":"field_781",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 204 - Date Exit Letter Sent",
+         "key":"field_785",
+         "required":false,
+         "type":"date_time"
+      },
+      {
+         "label":"Initial Contact Finalized Consent",
+         "key":"field_780",
+         "required":false,
+         "type":"boolean"
+      },
+      {
+         "label":"RTN 57A - Different Employer Job Type",
+         "key":"field_782",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 57B - Different Employer Name (Company)",
+         "key":"field_783",
+         "required":false,
+         "type":"short_text"
+      },
+      {
+         "label":"RTN 57C - Different Employer Contact",
+         "key":"field_784",
+         "required":false,
+         "type":"short_text"
+      }
+   ]
+}
